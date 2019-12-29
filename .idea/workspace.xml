@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="906d83fc-6877-4d12-b894-ebeb4667bb68" name="Default Changelist" comment="redis相关操作,高级api与低级api">
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/java/com/mashibing/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/java/com/mashibing/zookeeper/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/java/com/mashibing/zookeeper/config/DefaultWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/java/com/mashibing/zookeeper/config/MyConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/java/com/mashibing/zookeeper/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/java/com/mashibing/zookeeper/config/WatchCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/java/com/mashibing/zookeeper/config/ZKUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/java/com/mashibing/zookeeper/lock/TestLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/java/com/mashibing/zookeeper/lock/WatchCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_studys/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_studys/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_studys/pom.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springboot_studys" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="E:/java/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\java\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VQun2ShegZ6gdDexrM35cNf971" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_data" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.RemoteServersConfigurable" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.houkai.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\houkai_code\springboot\springboot_web\src\main\resources\i18n" />
+      <recent name="E:\houkai_code\springboot\springboot_web\src\main\resources\public" />
+      <recent name="E:\houkai_code\springboot\springboot_web\src\main\resources\templates" />
+      <recent name="E:\houkai_code\springboot\springboot_studys\src\main\resources\config" />
+      <recent name="E:\houkai_code\springboot\springboot_studys\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.houkai.entity" />
+      <recent name="com.mashibing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\houkai_code\springboot\springboot_studys\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SpringbootWebApplication">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.zookeeper.App" />
+      <module name="springboot_studys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloomFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.BloomFilter" />
+      <module name="springboot_studys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.houkai.SpringbootWebApplication" />
+      <module name="springboot_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.houkai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConfig.getConf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_studys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.zookeeper.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mashibing.zookeeper.config" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.zookeeper.config.TestConfig" />
+      <option name="METHOD_NAME" value="getConf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLock.lock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_studys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.zookeeper.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mashibing.zookeeper.lock" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.zookeeper.lock.TestLock" />
+      <option name="METHOD_NAME" value="lock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.houkai.SpringbootWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.houkai.springboot_data.SpringbootDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_studys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.SpringbootStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.StudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringbootWebApplication" />
+        <item itemvalue="JUnit.TestLock.lock" />
+        <item itemvalue="JUnit.TestConfig.getConf" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.BloomFilter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="906d83fc-6877-4d12-b894-ebeb4667bb68" name="Default Changelist" comment="" />
+      <created>1577197802457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577197802457</updated>
+      <workItem from="1577197803781" duration="1526000" />
+      <workItem from="1577456763576" duration="25682000" />
+      <workItem from="1577614463402" duration="7968000" />
+    </task>
+    <task id="LOCAL-00001" summary="redis相关操作,高级api与低级api">
+      <created>1577556980565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577556980567</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="redis相关操作,高级api与低级api" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis相关操作,高级api与低级api" />
+  </component>
+</project>
