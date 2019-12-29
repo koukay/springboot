@@ -32,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springboot_studys" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springboot_data" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -231,7 +231,7 @@
       <updated>1577197802457</updated>
       <workItem from="1577197803781" duration="1526000" />
       <workItem from="1577456763576" duration="25682000" />
-      <workItem from="1577614463402" duration="7968000" />
+      <workItem from="1577614463402" duration="8628000" />
     </task>
     <task id="LOCAL-00001" summary="redis相关操作,高级api与低级api">
       <created>1577556980565</created>
