@@ -1,0 +1,17 @@
+#spring:
+#  profiles: test
+server:
+  port: 8081
+person:
+  name: zhangsan-test
+  age: 12
+  sex: 男
+  desc: my name is ${person.name},my age is ${person.age}
+my:
+  name: houkai_test
+  secret: ${random.value}
+  number: ${random.int}
+  bignumber: ${random.long}
+  uuid: ${random.uuid}
+  number.less.than.ten: ${random.int(100)}
+  number.in.range: ${random.int[1024,65536]}

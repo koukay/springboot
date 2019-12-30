@@ -16,20 +16,19 @@ public class SpringbootWebApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringbootWebApplication.class, args);
     }
-    //将自定义的servlet添加到springboot容器中,当配置了urlmappings之后，servlet自己的配置就不会生效
-    @Bean
+
+   /* @Bean
     public ServletRegistrationBean<MyServlet> getServletRegistrationBean(){
         ServletRegistrationBean<MyServlet> bean = new ServletRegistrationBean<>(new MyServlet());
-        //ServletRegistrationBean<MyServlet> bean = new ServletRegistrationBean<>(new MyServlet(),"/s2");
         bean.setLoadOnStartup(1);
         return bean;
-    }
+    }*/
 
-    @Bean
+   /* @Bean
     public ServletListenerRegistrationBean listenerRegist(){
         ServletListenerRegistrationBean srb = new ServletListenerRegistrationBean();
         srb.setListener(new MyHttpSessionListener());
         System.out.println("listener");
         return srb;
-    }
+    }*/
 }
